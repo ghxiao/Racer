@@ -9,6 +9,7 @@ Quicklisp or ASDF directly. Make sure ASDF finds the file racer.asd, e.g., with 
 Racer has been tested with ACL 8.2, CCL 1.9, LW 6.1, and SBCL 1.1.8.
 All Racer forms are available from the package racer. See the doc directory for a User's Guide and a Reference Manual. In order to start the Racer server using ACL, CCL, or LW, just execute `(racer:racer-toplevel)`
 
+```
 ? (racer:racer-toplevel)
 
 ;;; Welcome to Racer Version 2.0 2014-01-04! 
@@ -33,5 +34,6 @@ HTML documentation at   : http://localhost:8080/reference-toplevel.html
 TCP service enabled for : http://localhost:8088/
 
 TCP control enabled for : http://localhost:8089/
+```
 
 You can you your browser with URL [http://localhost:8080/reference-toplevel.html](http://localhost:8080/reference-toplevel.html) in order to access the reference manual online while the Racer server is running.
